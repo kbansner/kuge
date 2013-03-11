@@ -1,0 +1,105 @@
+body {
+  padding-top: 60px;
+}
+
+h2 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+p {
+  margin: 0 0 20px;
+}
+
+address {
+  margin-top: 100px;
+  font-style: normal;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.carousel {
+  max-width: 460px;
+}
+
+.carousel-indicators {
+  top: auto;
+  right: auto;
+  bottom: 5px;
+  display: block;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  float: none;
+  width: 6px;
+  height: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0, 0.2);
+}
+
+.map {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.map iframe {
+  margin: 0;
+  border: none;
+}
+
+.navbar .nav > li > a {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nav-phone {
+  display: none;
+}
+
+/* Phone only */
+/* -------------------------------------------------- */
+@media (max-width: 767px) {
+  body {
+    padding-top: 0;
+  }
+
+  .nav-phone {
+    display: block;
+    margin: 30px 0;
+  }
+  .nav-phone li {
+    padding: 5px 0;
+  }
+  .nav-phone .active a,
+  .nav-phone .active a:hover {
+    color: #d58000;
+    text-decoration: none;
+  }
+  .nav-phone a,
+  .nav-phone a:hover {
+    color: black;
+  }
+
+
+  address {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .map {
+    margin: 0 auto;
+  }
+
+  .map iframe {
+    max-width: 100%;
+  }
+
+}
