@@ -47,7 +47,7 @@ ul {
 
 .map {
   margin-top: 20px;
-  width: 360px;
+  max-width: 360px;
 }
 
 .navbar .nav > li > a {
