@@ -47,12 +47,7 @@ ul {
 
 .map {
   margin-top: 20px;
-  width: 300px;
-}
-
-.map iframe {
-  margin: 0;
-  border: none;
+  width: 360px;
 }
 
 .navbar .nav > li > a {
@@ -95,11 +90,7 @@ ul {
   }
 
   .map {
-    margin: 0 auto;
-  }
-
-  .map iframe {
-    max-width: 100%;
+    margin: 10px auto 0;
   }
 
 }
