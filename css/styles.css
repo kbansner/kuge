@@ -2,6 +2,10 @@ body {
   padding-top: 60px;
 }
 
+a, a:hover {
+  color: #232f68;
+}
+
 h2 {
   margin-top: 10px;
   margin-bottom: 5px;
@@ -31,6 +35,10 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+#kuge-logo {
+  margin: 15px 0;
 }
 
 .carousel {
@@ -98,7 +106,7 @@ ul {
   }
   .nav-phone .active a,
   .nav-phone .active a:hover {
-    color: #d58000;
+    color: #232f68;
     text-decoration: none;
   }
   .nav-phone a,
