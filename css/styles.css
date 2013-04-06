@@ -26,6 +26,10 @@ img.banner {
   margin-bottom: 20px;
 }
 
+#kuge-logo {
+  max-width: 50%;
+}
+
 address {
   margin-top: 100px;
   font-style: normal;
@@ -88,6 +92,12 @@ ul {
 
 .nav-phone {
   display: none;
+}
+
+.pricing-hours {
+  margin-top: 30px;
+  font-size: 13px;
+  line-height: 16px;
 }
 
 /* Phone only */
